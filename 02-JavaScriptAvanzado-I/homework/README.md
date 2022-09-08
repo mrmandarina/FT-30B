@@ -104,7 +104,7 @@ console.log(pm);
 ```javascript
 6 / "3" ///2
 "2" * "3" /// 6
-4 + 5 + "px" /// '45px'
+4 + 5 + "px" /// '9px'
 "$" + 4 + 5  /// '$45'
 "4" - 2 /// 2
 "4px" - 2 /// NaN
@@ -140,6 +140,9 @@ function test() {
 
 test();
 ```
+undefined
+2
+///
 
 Y el de este código? :
 
@@ -156,7 +159,8 @@ function getFood(food) {
 
 getFood(false);
 ```
-
+undefined
+///
 
 ### This
 
@@ -180,6 +184,9 @@ var test = obj.prop.getFullname;
 
 console.log(test());
 ```
+Aurelio De Rosa
+undefined
+///
 
 ### Event loop
 
@@ -195,3 +202,7 @@ function printing() {
 
 printing();
 ```
+1
+4
+2
+3
